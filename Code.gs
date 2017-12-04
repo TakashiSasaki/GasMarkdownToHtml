@@ -10,7 +10,7 @@ function getHtmlFromString(markdownString) {
 }
 
 function getHtmlFromUrl(url){
-  if(url === undefined) url = "https://raw.githubusercontent.com/chjj/marked/master/README.md";
+  if(url === undefined) url = "https://raw.githubusercontent.com/TakashiSasaki/GasMarkdownToHtml/readme/README.md";
   try {
     var httpResponse = UrlFetchApp.fetch(url);
     var markdownText = httpResponse.getContentText();
